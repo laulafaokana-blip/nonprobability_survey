@@ -155,6 +155,14 @@ Perempuan = 60%
 Weighted estimation menghasilkan proporsi “Setuju” sebesar 57%.
 Weighting sederhana menunjukkan bahwa hasil naive estimation sedikit “bias” karena sampel terlalu banyak perempuan. Perempuan dalam survei cenderung memberikan skor lebih tinggi, sehingga proporsi “Setuju” terlihat lebih besar. Setelah distribusi responden disesuaikan dengan kondisi populasi (60:40), tingkat penilaian “layak diikuti” menjadi 57%, yang lebih mencerminkan gambaran populasi secara keseluruhan.
 ## perbandingan naive dan weighting
+| Estimasi                | Proporsi “Setuju” | Catatan                                                                  |
+|--------------------------|-------------------|-------------------------------------------------------------------------|
+| Naive Estimation         | 59%               | Hasil mentah dari sampel (20 perempuan, 7 laki-laki).                   |
+| Weighted Estimation 60:40| 57%               | Disesuaikan dengan distribusi populasi 60% perempuan, 40% laki-laki.    |
+
+Naive estimation menunjukkan bahwa 59% responden menilai organisasi mahasiswa layak diikuti. Namun, karena sampel didominasi oleh perempuan (74%), hasil ini sedikit lebih tinggi dari kondisi populasi sebenarnya.
+Setelah dilakukan weighting sederhana dengan distribusi populasi 60% perempuan dan 40% laki-laki, proporsi “Setuju” turun menjadi 57%. Hal ini menandakan bahwa perempuan cenderung memberikan penilaian lebih positif, sehingga dominasi mereka dalam sampel membuat hasil naive estimation agak bias.
+Dengan demikian, naive estimation memberikan gambaran mentah dari sampel, sedangkan weighted estimation memperbaiki ketidakseimbangan komposisi responden sehingga hasil lebih representatif terhadap populasi.
 
 
 
